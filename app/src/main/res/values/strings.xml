@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Application1</string>
+    <string-array name="fullName_array">
+        <item>Elmer Deane</item>
+        <item>Maire Harley</item>
+        <item>Sherri Oakenford</item>
+        <item>Jeffy Pettifor</item>
+        <item>Wilmette Halliday</item>
+        <item>Kath Turbard</item>
+        <item>Anthe Roddick</item>
+        <item>Flemming Vlies</item>
+        <item>Ronny Gounel</item>
+        <item>Chantalle Rowney</item>
+    </string-array>
+    <string-array name="fromCity_array">
+        <item>Bílina Kyselka</item>
+        <item>Kloangpopot</item>
+        <item>Zhencheng</item>
+        <item>Norton</item>
+        <item>Kunduz</item>
+        <item>Louisville</item>
+        <item>Panayagan</item>
+        <item>Stord</item>
+        <item>Kloulklubed</item>
+        <item>Yarmolyntsi</item>
+    </string-array>
+    <string-array name="toCity_array">
+        <item>Biscucuy</item>
+        <item>Namysłów</item>
+        <item>Ila Orangun</item>
+        <item>Čelopek</item>
+        <item>La Quebrada</item>
+        <item>Studénka</item>
+        <item>Qingshui</item>
+        <item>Katima Mulilo</item>
+        <item>Trubchevsk</item>
+        <item>Banepa</item>
+    </string-array>
+    <string-array name="depDate_array">
+        <item>4/2/2022</item>
+        <item>2/26/2022</item>
+        <item>2/20/2022</item>
+        <item>8/12/2022</item>
+        <item>4/13/2022</item>
+        <item>7/26/2022</item>
+        <item>3/5/2022</item>
+        <item>2/26/2022</item>
+        <item>10/26/2022</item>
+        <item>7/3/2022</item>
+    </string-array>
+    <string-array name="depTime_array">
+        <item>9:50 PM</item>
+        <item>5:19 PM</item>
+        <item>2:29 AM</item>
+        <item>10:03 PM</item>
+        <item>5:39 AM</item>
+        <item>8:15 PM</item>
+        <item>2:06 AM</item>
+        <item>7:07 AM</item>
+        <item>11:45 AM</item>
+        <item>4:20 PM</item>
+    </string-array>
+</resources>

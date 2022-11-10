@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="passenger"
+            type="ud.course.application1.model.Passenger" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PassengerDetail">
+
+        <TextView
+            android:id="@+id/passTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@{passenger.depTime}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passDate" />
+
+        <TextView
+            android:id="@+id/passDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{passenger.depDate}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/passTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="21dp"
+            android:text="@{passenger.toCity}"
+            app:layout_constraintStart_toEndOf="@+id/passFrom"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/passFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{passenger.fromCity}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passfullName" />
+
+        <TextView
+            android:id="@+id/passfullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{passenger.fullName}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
